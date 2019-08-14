@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Loewenstark_Newsletter",
+    "type": "magento-module",
+    "license": "GPL-3",
+    "homepage": "",
+    "description": "unscubscribe as guest, send double opt in confirmation",
+    "authors": [
+    {
+        "name": "Mathis Klooss",
+        "email": "m.klooss@loewenstark.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

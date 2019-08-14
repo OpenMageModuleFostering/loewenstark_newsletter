@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Loewenstark_Newsletter</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="https://github.com/mklooss/Loewenstark_Newsletter/blob/master/README.md">GPL-3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>unscubscribe as guest, send double opt in confirmation</summary>
+    <description>unscubscribe as guest, send double opt in confirmation</description>
+    <notes>initial connect release</notes>
+    <authors><author><name>Mathis Klooss</name><user>mklooss</user><email>m.klooss@loewenstark.de</email></author></authors>
+    <date>2012-12-07</date>
+    <time>08:59:05</time>
+    <contents><target name="magecommunity"><dir name="Loewenstark"><dir name="Newsletter"><dir><dir name="Block"><file name="Unsubscribe.php" hash="03cf2c135ca87e9d15c2cb92a0a21ee0"/></dir><dir name="Model"><file name="Unsubscribe.php" hash="3379279490d57ffecbe362750609a9bb"/></dir><dir name="controllers"><file name="UnsubscriberController.php" hash="191cf8f7ecefa2c968de1efb689d9877"/></dir><dir name="etc"><file name="config.xml" hash="9dfcd5f68236e8136ffa7d400d063907"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="loewenstark"><file name="newsletter.xml" hash=""/></dir></dir><dir name="template"><dir name="newsletter"><file name="unsubscribe.phtml" hash=""/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Loewenstark_Newsletter.xml" hash=""/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Loewenstark_Newsletter.csv" hash=""/></dir><dir name="en_US"><file name="Loewenstark_Newsletter.csv" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.12</min><max>7.0.0</max></php></required></dependencies>
+</package>
