@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?php
 /**
   * Loewenstark_Newsletter
   *
@@ -9,15 +8,6 @@
   * @copyright 2013 Loewenstark Web-Solution GmbH (http://www.loewenstark.de). All rights served.
   * @license     https://github.com/mklooss/Loewenstark_Newsletter/blob/master/README.md
   */
-//-->
-<config>
-    <modules>
-        <Loewenstark_Newsletter>
-            <active>true</active>
-            <codePool>community</codePool>
-            <depends>
-                <Mage_Newsletter />
-            </depends>
-        </Loewenstark_Newsletter>
-    </modules>
-</config>
+class Loewenstark_Newsletter_Helper_Data extends Mage_Newsletter_Helper_Data
+{
+}
