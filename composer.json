@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Loewenstark_Newsletter",
+    "name": "OpenMageModuleFostering\/Loewenstark_Newsletter",
     "type": "magento-module",
     "license": "GPL-3",
     "homepage": "",
     "description": "improvements for newsletter",
     "authors": [
-    {
-        "name": "Mathis Klooss",
-        "email": "mathis@mage-profis.de"
-    }
-],
+        {
+            "name": "Mathis Klooss",
+            "email": "mathis@mage-profis.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
